@@ -1,0 +1,7 @@
+*.o
+dwm
+st
+slstatus
+dmenu
+dmenu_path
+dmenu_run
