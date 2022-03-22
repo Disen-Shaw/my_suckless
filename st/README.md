@@ -12,11 +12,6 @@ This repositories is my simple terminal configration.
 + Window manager: DWM
 + Shell: zsh
 
-## Effect
-
-screenshot
-![screenshot](./img/ScreenShot.png)
-
 ## Install
 
 Download source files
