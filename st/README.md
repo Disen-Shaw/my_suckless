@@ -26,6 +26,9 @@ Install it :D
 sudo make clean install
 ```
 
+You can edit the file [config.h](./config.h)
+to build your own dwm, there are 3 themes you can change.
+
 ## Patchs
 
 There is some patchs used.
