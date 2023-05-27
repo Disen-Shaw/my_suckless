@@ -22,7 +22,7 @@ static int tagindicatortype = INDICATOR_BOTTOM_BAR;
 static int tiledindicatortype = INDICATOR_NONE;
 static int floatindicatortype = INDICATOR_TOP_LEFT_SQUARE;
 static const char* fonts[] = {
-  "JetBrainsMono Nerd Font:size=11.5:style=bold:antialias=true:autohint=true",
+  "JetBrainsMono Nerd Font Mono:size=11.5:style=bold:antialias=true:autohint=true",
   "NotoEmoji Nerd Font:size=11.5:antialias=true:autohint=true",
   "FandolHei:size=11.5:style=bold:antialias=true:autohint=true",
   "Font Awesome 5 Free:size=20:style=bold:antialias=true:autohint=true",
@@ -210,7 +210,7 @@ static const char* dmenucmd[] = { "dmenu_run", "-sb", "#c574dd", "-sf",
   "#1a1b26", "-p", "Run: ", NULL };
 static const char* qutebrowser[] = { "qutebrowser", NULL };
 static const char* dmenucmd2[] = { "rofi", "-show", "drun", NULL };
-static const char* termcmd[] = { "st", NULL };
+static const char* termcmd[] = { "alacritty", NULL };
 #include <X11/XF86keysym.h>
 
 static Key keys[] = {

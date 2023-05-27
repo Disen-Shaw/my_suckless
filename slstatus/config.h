@@ -64,10 +64,9 @@ static const char unknown_str[] = "n/a";
 static const struct arg args[] = {
     /* function format          argument */
     {run_command, "<\x01 %2s", "~/.local/share/dwm/netspeed.sh"},
-    {temp, "<\x02﨎 %2sºC", "/sys/module/k10temp/drivers/pci:k10temp/0000:00:18.3/hwmon/hwmon4/temp1_input"},
-    {cpu_perc, "<\x03﬙ %2s%%", NULL},
-    {run_command, "<\x04 %2s", "~/.local/share/dwm/Mem.sh"},
-    {run_command, "<\x05 %s", "~/.local/share/dwm/vol.sh"},
-    {run_command, "<\x06 %s", "~/.local/share/dwm/Bat.sh"},
-    {datetime, "<\x07  %s", "%a %b %d - %R"},
+    {cpu_perc, "<\x02󰘚 %2s%%", NULL},
+    {run_command, "<\x03󰍛 %2s", "~/.local/share/dwm/Mem.sh"},
+    {run_command, "<\x04 %s", "~/.local/share/dwm/vol.sh"},
+    {run_command, "<\x05 %s", "~/.local/share/dwm/Bat.sh"},
+    {datetime, "<\x06  %s", "%a %b %d - %R"},
 };
